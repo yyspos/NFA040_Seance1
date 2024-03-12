@@ -44,10 +44,10 @@ Voici une vidéo d'accompagnement pour vous aider dans cette séquence de créat
   
 **Procédure :**  
 1° - Créez votre compte Alwaysdata (gratuit jusqu'à 100Mo, aucune carte nécéssaire).   
-3° - Autoriser les connexions SSH depuis la console d'administration (Le panel d'administration de Alwaysdata):  
- . 3.1 - Cliquez sur SSH (Accès distant).  
- . 3.2 - Modifier les paramètres de votre utilisateur.   
- . 3.3 - Cliquez sur **Activer la connexion par mot de passe**.  
+2° - Autoriser les connexions SSH depuis la console d'administration (Le panel d'administration de Alwaysdata):  
+ . 2.1 - Cliquez sur SSH (Accès distant).  
+ . 2.2 - Modifier les paramètres de votre utilisateur.   
+ . 2.3 - Cliquez sur **Activer la connexion par mot de passe**.  
   
 **Travail demandé :** Mettre en ligne votre site Internet et **copier l'URL de votre site dans la discussion public**.  
   
