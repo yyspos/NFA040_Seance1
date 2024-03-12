@@ -21,7 +21,7 @@ Si besoin, une vidéo pour vous aider à créer votre propre compte GitHUB : [Cr
 A noter que **si vous possédez déjà un compte GitHUB, vous pouvez le conserver pour réaliser cet atelier**. Pas besion d'en créer un nouveau.  
 Remarque importante : **Lors de votre inscription, utilisez une adresse mail valide. GitHUB n'accepte pas les adresses mails temporaires**  
 
-2° - Faites un Fork du Repository suivant : [https://github.com/OpenRSI/flask_hello_world.git](https://github.com/OpenRSI/NFA040_Seance-1.git)  
+2° - Faites un Fork du Repository suivant : [[https://github.com/OpenRSI/flask_hello_world.git](https://github.com/OpenRSI/NFA040_Seance-1.git)](https://github.com/OpenRSI/NFA040_Seance-1.git)  
 Voici une vidéo d'accompagnement pour vous aider dans les "Forks" : [Forker ce projet](https://youtu.be/p33-7XQ29zQ)    
   
 **Travail demandé :** Créé votre compte GitHUB, faites le fork de ce projet et **copier l'URL de votre Repository GitHUB dans la discussion public**.
@@ -40,26 +40,19 @@ Rendez-vous sur **https://www.alwaysdata.com/fr/**
   
 Remarque : **Attention à bien vous rappeler de vos Login/Password** lors de la création de votre compte site car vous en aurez besoin plus tard pour la création de vos Secrets GitHUB.  
   
-Voici une vidéo d'accompagnement pour vous aider dans cette séquence de création d'un site sur Alwaysdata : [Vidéo Alwaysdata](https://youtu.be/6cuHjy8n968)  
+Voici une vidéo d'accompagnement pour vous aider dans cette séquence de création d'un site sur Alwaysdata : [Vidéo Alwaysdata](https://youtu.be/6jJiqv_ZCHg)  
   
 **Procédure :**  
-1° - Créez votre compte Alwaysdata (gratuit jusqu'à 100Mo, aucune carte nécéssaire).  
-2° - Depuis la console d'administration (Le panel d'administration de Alwaysdata) :  
- . 2.1 - Cliquez sur "Sites" (Colonne de gauche) puis **supprimer votre site PHP** (via l'icone de la Poubelle).  
- . 2.2 - **Installer ensuite une application Flask** (Bouton **+ Installer une application**).  
- . . 2.2.1 Adresses = utilisez le sous-domaine qui vous appartient que vous trouverez dans l'information " Les sous-domaines suivants vous appartiennent et sont actuellement inutilisés : {Site}.alwaysdata.net  
- . . 2.2.2 Répertoire d'installation = **/www/flask**  
- . 2.2.3 N'oubliez pas d'Accepter les conditions.  
-3° - Autoriser les connexions SSH :  
+1° - Créez votre compte Alwaysdata (gratuit jusqu'à 100Mo, aucune carte nécéssaire).   
+3° - Autoriser les connexions SSH depuis la console d'administration (Le panel d'administration de Alwaysdata):  
  . 3.1 - Cliquez sur SSH (Accès distant).  
- . 3.2 - Modifier les paramètres de votre utilisateur.  
- . 3.3 - Définissez si besion un nouveau mot de passe.  
- . 3.4 - Cliquez sur **Activer la connexion par mot de passe**.  
+ . 3.2 - Modifier les paramètres de votre utilisateur.   
+ . 3.3 - Cliquez sur **Activer la connexion par mot de passe**.  
   
-**Travail demandé :** Mettre en ligne votre application Flask "Hello World !" et **copier l'URL de votre site dans la discussion public**.  
+**Travail demandé :** Mettre en ligne votre site Internet et **copier l'URL de votre site dans la discussion public**.  
   
 Notions acquises lors de cette séquence :  
-Vous avez créer un hébergement (gratuit) et découvert également que vous pouvez installer bien d'autres applications (Django, Drupal, Jenkins, Magento, Symphony, etc...). Les perspectives sont nombreuses.
+Vous avez créer un hébergement (gratuit) et découvert également un environnement où pourriez installer bien d'autres applications (Django, Drupal, Jenkins, Magento, Symphony, etc...). Les perspectives sont nombreuses.
 
 ---------------------------------------------------------------------------------------------
 Séquence 3 : Les Actions GitHUB (Industrialisation Continue)
