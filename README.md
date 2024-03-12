@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------------------
-INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL
+INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL NFA040
 ------------------------------------------------------------------------------------------------------
 Quelles sont les notions qui vont être abordées au cours de cet atelier ?
 Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de module NFA040. 
@@ -75,50 +75,17 @@ Vous avez vu dans cette séquence comment créer des secrets GiHUB afin de mettr
 L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des Commits) est très importante mais sortes malheureusement du cadre de cet atelier faute de temps. Toutefois, je vous invites à découvrir cet outil via les différentes sources du Web (Google, ChatGPT, etc..).  
 
 ---------------------------------------------------
-Séquence 4 : Créer la base de données sur votre serveur
+Séquence 4 : Customisez votre page d'accueil
 ---------------------------------------------------
-Objectif : Créer la base de données SQLite sur votre serveur  
+Objectif : Créer sa propre page HTML et la mettre en ligne  
 Difficulté : Faible (~10 minutes)
 ---------------------------------------------------
-1° - Connectez vous à votre serveur Alwaysdata en SSH.  
-2° - Depuis de la console SSH, executez la commande suivante : **python3 create_db.py**  
-Votre base de données est à présent opérationnelle sur votre serveur (Le fichier database.db à été créé dans votre répertoire sur le serveur)
-Vous pouvez, si vous le souhaitez, tappez la commande **ls** dans votre console pour voir la présence de la base de données.
+Votre solution est à présent opérationnelle. 
+Vous allez à présent modifier votre fichier index.html dans votre Repository afin de customiser votre page d'accueil.
 
-LES ROUTES (API)
--------------------------------------------
-Votre solution est à présent opérationnelle. Vous pouvez testez les routes (API) comme suit :  
-  
-https://{Votre_URL}**/**  
-Pointe sur le fichier helloWorld d'accueil  
+**Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html et remplacer son code par celui-ci :  
+<h1>Ceci est mon Site Internet NFA040 </h1>  
+Enregistrez vos modifications via un "Commit" (le gros boutton vert) et observez le résultat en ligne.  
 
-https://{Votre_URL}**/lecture**  
-L'accès est conditionné à un contrôle d'accès  
-
-https://{Votre_URL}**/authentification**  
-Page d'authentification (admin, password)  
-
-https://{Votre_URL}**/fiche_client/1**  
-Permet de faire un filtre sur un client. Vous pouvez changer la valeur de 1 par le N° du client de votre choix  
-
-https://{Votre_URL}**/consultation/**  
-Permet de consutler la base de données  
-
-https://{Votre_URL}**/enregistrer_client**  
-API pour enregistrer un nouveau client  
-
----------------------------------------------------
-Séquence 5 : Le projet de bibliothèque
----------------------------------------------------
-Objectif : Créer une application de biliothèque  
-Difficulté : Moyenne (~180 minutes)
----------------------------------------------------
-Votre projet consiste à present à concevoir et développer une application de gestion de bibliothèque moderne qui simplifie le processus de prêt et de retour de livres. Les fonctionnalités attendues dans le cadre de ce projet sont les suivantes :  
-•	L’enregistrement et la suppression de livres.  
-•	La recherche de livres disponibles.  
-•	L'emprunt possible d'un livre par un utilisateur.  
-•	La gestion des utilisateurs.  
-•	La gestion des stocks.  
-Votre travail est de modifier votre code afin de répondre aux besoins définis ci-dessus.
-L'application exploitera des API pour interagir avec la base de données et un contrôle d'accès Utilisateur/Administrateur doit être mis en place.  
-L’application pourra être enrichie avec des fonctionnalités supplémentaires telles que des recommandations de livres, des notifications pour les retours en retard, ou encore des rapports statistiques sur l'utilisation des livres pour améliorer l'expérience utilisateur et la gestion de la bibliothèque.  
+Notions acquises de cette séquence :  
+Vous avez apris à modifier votre code depuis GitHUB et mis en ligne votre travail automatiquement.  
