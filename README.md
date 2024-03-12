@@ -84,7 +84,7 @@ Votre solution est à présent opérationnelle.
 Vous allez à présent modifier votre fichier index.html dans votre Repository afin de customiser votre page d'accueil.
 
 **Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html et remplacer son code par celui-ci :  
-<h1>Ceci est mon Site Internet NFA040 </h1>  
+```<h1>Ceci est mon Site Internet NFA040 </h1>```  
 Enregistrez vos modifications via un "Commit" (le gros boutton vert) et observez le résultat en ligne.  
 
 Notions acquises de cette séquence :  
