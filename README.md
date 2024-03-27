@@ -65,8 +65,8 @@ Dans le Repository GitHUB que vous venez de créer précédemment lors de la sé
 Pour utiliser cette Action (CICD.yml), **vous avez besoin de créer des secrets dans GitHUB** afin de ne pas divulguer des informations sensibles aux internautes de passage dans votre Repository comme vos login et password par exemple.  
 
 Pour ce projet Métriques, **vous avez 2 secrets à créer** dans votre Repository GitHUB :  
-**USERNAME** = Le login qui est utilisé pour la connexion SSH.  
-**PASSWORD** = Le mot de passe qui est utilisé pour la connexion SSH.   
+**USERNAME** : Mettre en secret le login qui est utilisé pour la connexion SSH.  
+**PASSWORD** : Mettre en secret le mot de passe qui est utilisé pour la connexion SSH.   
   
 Voici une vidéo pour vous expliquer le processus de création de vos secrets dans GitHUB : [Création des secrets](https://youtu.be/Rv5X5-qbvqA) 
 
