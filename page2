@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+</head>
+<body>
+    <table border="1" style="width: 300px; height: 10px;">
+        <tr>
+            <td>un tableau</td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td>à 6</td>
+            <td>cases</td>
+        </tr>
+    </table>
+
+<p style="color: red;">Une liste</p>
+
+<ol>
+    <li>premier point
+        <ul>
+            <li>rubrique 1</li>
+            <li>rubrique 2</li>
+        </ul>
+    </li>
+    <li>2e point</li>
+    <li>3e point</li>
+        <ul>
+            <li>rubrique 1</li>
+            <li>rubrique 2</li>
+        </ul>
+</ol>
+
+
+
+
+
+
+
+    
+</body>
+</html>
